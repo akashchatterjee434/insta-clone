@@ -1,0 +1,33 @@
+user = {
+username :String,
+email:String,
+bio:String,
+followers:Array,
+profile_image:String
+}
+
+===> Authentication 
+
+    ==> Register (1. user ka data save krna 2.token user ko dena)
+    ==> login 
+    ==> logout (token blacklisting)
+    ==> [otp based registration]
+
+===> Posts
+
+    ==> create
+    ==> can see the feed 
+    ==> like post (collection types)
+    ==> save post
+   yeh sb functionalities hain jo hm banayenge!!---->
+    {
+     caption :String,
+     img_url: String,
+     user:userId,
+     createdAt: Date
+    }
+
+===> Users 
+
+    ==> following 
+    ==> followers        
